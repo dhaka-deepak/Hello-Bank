@@ -1,0 +1,411 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #0077c9;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: #f2f2f2;
+padding: 20px;
+width: 80%;
+margin: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+section p {
+font-size: 1.2em;
+line-height: 1.5;
+}
+
+#services ul {
+margin: 0;
+padding: 0;
+}
+
+#services li {
+font-size: 1.2em;
+margin-bottom: 10px;
+}
+
+footer {
+background-color: #333333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+form {
+text-align: left;
+margin: 20px 0;
+}
+
+form label {
+display: block;
+margin-bottom: 10px;
+}
+
+form input {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: none;
+}
+
+form button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+form button:hover {
+background-color: #0077c9;
+}
+
+/***************************************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin: 0 10px;
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+}
+
+section {
+padding: 20px;
+}
+
+#services ul {
+    list-style-type: square;
+    }
+    
+    footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    form {
+    text-align: left;
+    margin: 20px 0;
+    }
+    
+    form label {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    }
+    
+    form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    header h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 3em;
+        font-weight: bold;
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      
+      nav a:hover {
+        color: #0077c9;
+      }
+      
+      section h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+      
+      section p {
+        font-size: 1.2em;
+        line-height: 1.5;
+      }
+      
+      #services ul {
+        margin: 0;
+        padding: 0;
+      }
+      
+      #services li {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+      
+      #home {
+        background-color: #f2f2f2;
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+      
+      #about {
+        background-color: #e5e5e5;
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+      
+      #contact {
+        background-color: #f2f2f2;
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+      
+      #login {
+        background-color: #e5e5e5;
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+      
+      footer p {
+        margin: 0;
+      }
+  
+      /* Change the background color of the header when the mouse is hovered over it */
+header:hover {
+    background-color: #0077c9;
+  }
+  
+  /* Change the text color of the active navigation link */
+  nav a.active {
+    color: #0077c9;
+    font-weight: bold;
+  }
+  
+  /* Change the background color of the login section when it's hovered over */
+  #login:hover {
+    background-color: #0077c9;
+    color: #fff;
+  }
+  
+  /* Change the color of the submit button when it's hovered over */
+  form button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Add a subtle shadow to the sections */
+  section {
+    box-shadow: 2px 2px 5px #ccc;
+  }
+
+  /* Add a gradient background to the header */
+header {
+    background: linear-gradient(to bottom, #333, #0077c9);
+  }
+  
+  /* Add a hover effect to the navigation links */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add a hover effect to the services list items */
+  #services li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a hover effect to the submit button */
+  form button:hover {
+    background-color: #0077c9;
+  }
+  
+  /* Add a hover effect to the submit button */
+  form button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Add a transition effect to the sections */
+  section {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Add a hover effect to the sections */
+  section:hover {
+    transform: scale(1.05);
+  }
+  
+    
+    
+  header {
+    background: linear-gradient(to bottom, #333, #0077c9);
+  }
+
+  form button {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { background-color: #333;}
+    50% { background-color: #0077c9;}
+    100% { background-color: #333;}
+}
+
+img {
+    filter: brightness(150%);
+}
+
+section {
+    background: #f2f2f2, linear-gradient(to bottom, #333, #0077c9);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.grid-item:nth-child(1) {
+    background-color: #f2f2f2;
+}
+.grid-item:nth-child(2) {
+    background: linear-gradient(to bottom, #333, #0077c9);
+}
+.grid-item:nth-child(3) {
+    background-color: #ccc;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animated {
+  animation: fadeIn 1s ease-in-out 1s both infinite;
+  transform: translateY(-50px);
+}
+
+
+
+
+    
+    
+    
+    
+    
+  
